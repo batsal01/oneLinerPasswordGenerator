@@ -1,0 +1,1 @@
+import random, string; pwLen = int(input("Enter password length: \t")); print (''.join(random.choice(string.ascii_letters + string.digits + string.punctuation) for i in range(pwLen))); input("Press enter to exit....")
